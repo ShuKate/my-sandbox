@@ -1,4 +1,6 @@
-#calculator for simple shapes
+#calculator for simple shapes. Жители страны Малевии часто экспериментируют с планировкой комнат. Комнаты бывают треугольные,
+#прямоугольные и круглые. Чтобы быстро вычислять жилплощадь, требуется написать программу, на вход которой подаётся тип фигуры
+#комнаты и соответствующие параметры, которая бы выводила площадь получившейся комнаты.Для числа π значение 3.14.
 _form = input('Enter a shape choosing from following:\n triangle\n rectangle\n circle:\n')
 if _form == 'triangle':
     a = int(input('First leg: '))
